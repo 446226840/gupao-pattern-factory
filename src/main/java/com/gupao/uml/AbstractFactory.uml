@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gupao.pattern.abstractfactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="0.0" y="729.0">com.gupao.pattern.abstractfactory.AbstractFactoryTest</node>
+    <node x="470.0" y="623.0">com.gupao.pattern.abstractfactory.UnionPayOffshorePay</node>
+    <node x="485.0" y="406.0">com.gupao.pattern.abstractfactory.WXPayDomesticPay</node>
+    <node x="243.0" y="295.0">com.gupao.pattern.abstractfactory.DomesticPayment</node>
+    <node x="235.0" y="623.0">com.gupao.pattern.abstractfactory.WXPayOffshorePay</node>
+    <node x="243.0" y="406.0">com.gupao.pattern.abstractfactory.AliPayDomesticPay</node>
+    <node x="409.0" y="163.0">com.gupao.pattern.abstractfactory.WXPayFactory</node>
+    <node x="818.0" y="163.0">com.gupao.pattern.abstractfactory.AliPayFactory</node>
+    <node x="0.0" y="623.0">com.gupao.pattern.abstractfactory.AliPayOffshorePay</node>
+    <node x="0.0" y="163.0">com.gupao.pattern.abstractfactory.UnionPayFactory</node>
+    <node x="483.5" y="0.0">com.gupao.pattern.abstractfactory.AbstractPaymentFactory</node>
+    <node x="235.0" y="512.0">com.gupao.pattern.abstractfactory.OffshorePayment</node>
+    <node x="0.0" y="406.0">com.gupao.pattern.abstractfactory.UnionPayDomesticPay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gupao.pattern.abstractfactory.UnionPayFactory" target="com.gupao.pattern.abstractfactory.AbstractPaymentFactory">
+      <point x="0.0" y="-43.5" />
+      <point x="194.5" y="138.0" />
+      <point x="523.5" y="138.0" />
+      <point x="-80.0" y="56.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.WXPayOffshorePay" target="com.gupao.pattern.abstractfactory.OffshorePayment">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.AliPayOffshorePay" target="com.gupao.pattern.abstractfactory.OffshorePayment">
+      <point x="0.0" y="-30.5" />
+      <point x="107.5" y="598.0" />
+      <point x="270.8333333333333" y="598.0" />
+      <point x="-71.66666666666669" y="30.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.UnionPayOffshorePay" target="com.gupao.pattern.abstractfactory.OffshorePayment">
+      <point x="0.0" y="-30.5" />
+      <point x="578.5" y="598.0" />
+      <point x="414.1666666666667" y="598.0" />
+      <point x="71.66666666666669" y="30.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.WXPayFactory" target="com.gupao.pattern.abstractfactory.AbstractPaymentFactory">
+      <point x="0.0" y="-43.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.AliPayDomesticPay" target="com.gupao.pattern.abstractfactory.DomesticPayment">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.AliPayFactory" target="com.gupao.pattern.abstractfactory.AbstractPaymentFactory">
+      <point x="0.0" y="-43.5" />
+      <point x="1012.5" y="138.0" />
+      <point x="683.5" y="138.0" />
+      <point x="80.0" y="56.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.WXPayDomesticPay" target="com.gupao.pattern.abstractfactory.DomesticPayment">
+      <point x="0.0" y="-30.5" />
+      <point x="596.0" y="381.0" />
+      <point x="428.0" y="381.0" />
+      <point x="74.0" y="30.5" />
+    </edge>
+    <edge source="com.gupao.pattern.abstractfactory.UnionPayDomesticPay" target="com.gupao.pattern.abstractfactory.DomesticPayment">
+      <point x="0.0" y="-30.5" />
+      <point x="111.5" y="381.0" />
+      <point x="280.0" y="381.0" />
+      <point x="-74.0" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="585.0" y="405.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
